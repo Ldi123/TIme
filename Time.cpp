@@ -6,7 +6,7 @@ time_t rawtime;
 struct tm * timeinfo;
 time ( &rawtime );
 timeinfo = localtime ( &rawtime );
-printf ( "ÈÕÆÚÊÇ: %s", asctime (timeinfo) );	
+printf ( "now is: %s", asctime (timeinfo) );	
 system("color 30");
 system("pause");
 }
